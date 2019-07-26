@@ -22,6 +22,7 @@ public class Service {
 		System.out.println(DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss").format(LocalDateTime.now().withNano(0)));
 		System.out.println("Dates and slf4j logger");
 		logger.info(time + " - (STATUS CODE = {}) => {}", 200, "full Phone directory retrieved.");
+
 	}
 
 }
